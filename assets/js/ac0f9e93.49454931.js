@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmiru_docs=self.webpackChunkmiru_docs||[]).push([[8798],{7438:s=>{s.exports=JSON.parse('{"label":"facebook","permalink":"/miru-docs/blog/tags/facebook","allTagsPath":"/miru-docs/blog/tags","count":1}')}}]);
