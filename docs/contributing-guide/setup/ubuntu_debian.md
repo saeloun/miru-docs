@@ -21,7 +21,7 @@ git clone https://github.com/<your-name>/miru-web.git
 #### 4. Install ruby 3.1.1
 
 ```bash
-rvm install 3.1.1
+rvm install $(cat .ruby-version)
 ```
 
 #### 5. Install Node 16.4.2(can be skipped if you followed the tip mentioned in (3) above)
