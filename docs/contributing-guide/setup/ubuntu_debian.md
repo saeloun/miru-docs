@@ -27,7 +27,7 @@ rvm install $(cat .ruby-version)
 #### 5. Install Node 16.4.2(can be skipped if you followed the tip mentioned in (3) above)
 
 ```bash
-nvm install 16.4.2
+nvm install $(cat .nvmrc)
 ```
 
 #### 6. Install Postgres
