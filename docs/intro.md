@@ -66,10 +66,3 @@ Miru is an open-source platform designed for business owners, developers, and fr
 #### Does Miru work on macOS? 
 
 Yes, Miru works seamlessly on both Windows and macOS. We are currently working to make it accessible on android as well. 
-
-
-
-
-
-
-

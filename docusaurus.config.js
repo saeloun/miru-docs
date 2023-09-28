@@ -8,8 +8,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Miru Web',
   tagline: 'Miru is an open-source tool, designed to make time tracking, invoice management, and accounting easy for small businesses worldwide. It is a platform for organizations to help them streamline their workflow.',
-  url: 'https://saeloun.github.io',
-  baseUrl: '/miru-docs/',
+  url: 'https://docs.miru.so',
+  baseUrl: '/',
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -18,7 +18,8 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'saeloun', // Usually your GitHub org/user name.
   projectName: 'miru-docs', // Usually your repo name.
-
+  deploymentBranch: 'gh-pages',
+  trailingSlash: false,
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
@@ -33,19 +34,13 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: '/',
           sidebarCollapsible: true,
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl: "https://github.com/saeloun/miru-docs/edit/main/",
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
           breadcrumbs: true,
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/saeloun/docs/edit/main/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -67,9 +62,9 @@ const config = {
       },
       navbar: {
         logo: {
-          href: "https://www.getmiru.com",
+          href: "/",
           alt: 'Miru Logo',
-          src: 'https://getmiru.com/assets/images/image01.svg?v=e3b47bc2',
+          src: 'https://miru.so/static/media/miru-blue-logo-with-text.5ba2b3fe09b9f038473f0a131f8a8bec.svg',
         },
         items: [
           {
@@ -92,7 +87,7 @@ const config = {
             items: [
               {
                 label: 'Docs',
-                to: '/docs/',
+                to: '/',
               },
             ],
           },
@@ -118,7 +113,7 @@ const config = {
             items: [
               {
                 label: 'Blog',
-                to: '/blog',
+                href: 'https://blog.miru.so',
               },
               {
                 label: 'GitHub',
