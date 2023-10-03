@@ -3,7 +3,7 @@ id: iconslist
 title: List of Icons
 ---
 
-## Guide contains the list of all availbale Miru icons
+## Guide contains the list of all available Miru icons
 
 ```
 WarningTriangleSVG
