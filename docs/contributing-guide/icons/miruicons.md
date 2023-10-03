@@ -46,7 +46,7 @@ Before adding a new icon, you'll need the icon's SVG file or import it from `pho
 Next, place the newly acquired icon file in the appropriate MiruIcons folder. It's essential to maintain a structured hierarchy for icons to keep things organized.
 Export the newly added icon from the `index.tsx` file of MiruIcons.   
 
--- **Step 3: Import and Use the New Icon**
+- **Step 3: Import and Use the New Icon**
 With the icon file in place, you can import and use it just like any other MiruIcon:
 
 ```
