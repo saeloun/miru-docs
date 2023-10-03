@@ -3,7 +3,7 @@ id: avatar
 title: Avatar
 ---
 
-The Avatar component is a versatile and reusable component that allows you to display user avatars or profile pictures in our app. We can customize it by passing various props to suit our component needs. In this guide, we'll walk through how to use the Avatar component in codebase.
+The Avatar component is a versatile and reusable component that allows us to display user avatars or profile pictures in our app. We can customize it by passing various props to suit our component needs. In this guide, we'll walk through how to use the Avatar component in codebase.
 
 #### Importing the Avatar Component
 To use the Avatar component in our app, we need to import it from our styled components. Here's how we can import it:
